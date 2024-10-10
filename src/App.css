@@ -1,0 +1,82 @@
+body {
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    /* background-color: #a52121; Light background for contrast */
+  background-image:url(../wave.png);
+ background-size: contain;
+   
+}
+
+.login-page {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 400px; 
+    width: 300px;
+    margin: 0; 
+    background-color: rgb(255, 255, 255); /* Set to desired transparency */
+    border: 2px solid black; 
+    border-radius: 15px; 
+    padding: 20px; 
+    opacity: 0.9; /* Adjust as necessary */
+}
+
+
+
+.login-container {
+    max-width: 400px; /* Maximum width of the form */
+    width: 100%; /* Full width on smaller screens */
+    padding: 20px; /* Padding around the form */
+    border: 1px solid #ccc; /* Border around the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+}
+
+.container1, .container {
+    margin-bottom: 15px; /* Space between fields */
+}
+
+label {
+    display: block; /* Labels to be block elements */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #333; /* Dark color for labels */
+    font-weight: bold; /* Bold labels */
+}
+
+input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 5px; /* Rounded input edges */
+    font-size: 16px; /* Font size for input */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #4CAF50; /* Green button background */
+    color: white; /* White text on button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded button edges */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.error-container {
+    margin-top: 10px; /* Space above error message */
+    margin-bottom: 15px; /* Space below error message */
+}
+
+.error-message {
+    color: red; /* Red color for error message */
+    text-align: left; /* Align text to the left */
+    font-size: 14px; /* Font size for error */
+}
